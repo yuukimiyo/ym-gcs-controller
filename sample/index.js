@@ -1,4 +1,4 @@
-const {GCSController} = require('ym-gcs-controller');
+const { GCSController } = require('ym-gcs-controller');
 
 require('dotenv').config();
 
@@ -9,7 +9,7 @@ const GCS_BUCKET = process.env.GCS_BUCKET;
 
 console.log("start");
 
-const gcs = new GCSController(
+const gcs = new GCSController (
   GOOGLE_PROJECT_ID,
   GOOGLE_KEYFILE,
   GCS_BUCKET
