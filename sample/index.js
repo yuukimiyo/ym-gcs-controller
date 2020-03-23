@@ -1,4 +1,4 @@
-const { GCSController } = require('ym-gcs-controller');
+const GCSController = require('ym-gcs-controller');
 
 require('dotenv').config();
 
@@ -15,9 +15,11 @@ const gcs = new GCSController (
   GCS_BUCKET
 );
 
-let filename = 'sample.txt';
-if (gcs.fileExists(filename)) {
-  console.log(`${filename} is exists.`);
-} else {
-  console.log(`${filename} is not exists.`);
-}
+(async () => {
+  let filename = 'samplee.txt';
+  if (await gcs.fileExists(filename)) {
+    console.log(`${filename} is exists.`);
+  } else {
+    console.log(`${filename} is not exists.`);
+  }
+})();
