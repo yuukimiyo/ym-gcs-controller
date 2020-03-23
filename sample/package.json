@@ -1,0 +1,16 @@
+{
+  "name": "ym-gcs-controller-sample",
+  "version": "0.0.1",
+  "description": "sample for ym-gcs-controller.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuuki miyoshi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ym-gcs-controller": "github:yuukimiyo/ym-gcs-controller#develop"
+  }
+}
