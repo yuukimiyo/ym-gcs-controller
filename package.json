@@ -1,0 +1,23 @@
+{
+  "name": "ym-gcs-controller",
+  "version": "0.1.1",
+  "description": "utility for gcs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuukimiyo/ym-gcs-controller.git"
+  },
+  "keywords": [
+    "GCP",
+    "GCS"
+  ],
+  "author": "yuuki miyoshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuukimiyo/ym-gcs-controller/issues"
+  },
+  "homepage": "https://github.com/yuukimiyo/ym-gcs-controller#readme"
+}
