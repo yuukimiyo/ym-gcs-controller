@@ -35,7 +35,7 @@ class GCSController {
     }
     
     // ストリームの書き出し先としての、gcsオブジェクトを取得
-    let ws = this.bucket.file(_filePath).createWriteStream({
+    let ws = await this.bucket.file(_filePath).createWriteStream({
       metadata: {
         cacheControl: 'no-cache',
         contentType: _contentType,
