@@ -15,6 +15,7 @@ const gcs = new GCSController (
   GCS_BUCKET
 );
 
+/*
 (async () => {
   let filename = 'sample.txt';
   if (await gcs.fileExists(filename)) {
@@ -23,18 +24,19 @@ const gcs = new GCSController (
     console.log(`${filename} is not exists.`);
   }
 })();
+*/
 
 /*
 (async () => {
   let filename = 'upload-test.txt';
   await gcs.upload(filename, 'test');
 })();
+*/
 
 (async () => {
-  let filename = 'upload-test-stream.txt';
+  let filename = 'upload-test-stream3.txt';
   let stream = await gcs.getStream(filename);
 
   stream.push('test');
   stream.push(null);
 })();
-*/

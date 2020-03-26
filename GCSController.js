@@ -29,7 +29,7 @@ class GCSController {
       switch(_filePath.split('.').pop().toLowerCase()) {
         case 'jpg': _contentType = 'image/jpeg'; break;
         case 'png': _contentType = 'image/png'; break;
-        case 'gz': _contentType = 'application/zip'; break;
+        case 'gz': _contentType = 'application/gzip'; break;
         default: _contentType = 'text/plain';
       }
     }
