@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "ym-gcs-controller",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "utility for gcs.",
   "main": "index.js",
   "scripts": {

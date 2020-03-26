@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ym-gcs-controller": "github:yuukimiyo/ym-gcs-controller#develop"
+    "ym-gcs-controller": "file:.."
   }
 }
